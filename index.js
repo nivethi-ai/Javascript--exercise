@@ -27,26 +27,53 @@ console.log(total)
 
 
 
-var hour=6
+var hour=22;
 if(5<=hour<12){
-   Greeting="morning"
+   console.log("morning");
+} else if(12<=hour<17) {
+       console.log("Afternoon");
+    } else if(17<=hour<21){
+            console.log("Evening");
+            
+        }
+        else{
+               console.log("Night");
+            }
+
+
+
+
+let day=1;
+switch(day){
+    case 1:
+        console.log("sunday");
+        break;
+    case 2:
+        console.log("Monday")
+        break;
+    case 3:
+        console.log("Tuesday")
+        break;
+    case 4:
+        console.log("Wednesday")
+        break;
+    case 5:
+       console.log("Thursday")
+       break;
+     case 6:
+       console.log("Friday")
+       break;
+    case 7:
+      console.log("Saturday")
+      break;
+    default:
+      console.log("Invalid Day")
 }
-else{
-    if(12<=hour<17) {
-       Greeting2="Afternoon"
-    }
-    
-}
-if(17<=hour<21){
-     Greeting3="Evening"
-    
-}
-else{
-    if(21<=hour<5){
-        Greeting4="Night"
-    }
-}
-console.log(greeting)
+
+
+
+
+
 
 
 
